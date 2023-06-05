@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digits-Recognition</title>
+
+  <link rel="stylesheet" href="digits.css">
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+</head>
+<body>
+</a>
+
+<a href="index.html">
+
+<button class="button1">Home</button>
+
+
+</a>
+
+
+  <div id="prediction-container" class="display-container">
+    <div>Number: <span id="prediction-number">#</span></div>
+    <div>Accuracy: <span id="prediction-confidence">0.0</span></div>
+  </div>
+  <div class="controlls">
+    <button id="btn-train">Train</button>
+    <button id="btn-load" disabled>Load</button>
+    <button id="btn-save">Save</button>
+    <button id="btn-clear">Clear</button>
+    <button id="btn-guess">Guess</button>
+    <button id="btn-display">Display</button>
+  </div>
+  <canvas id="canvas"></canvas>
+  <p class="display-container">Label: <span id="label-display">#</span></p>
+
+  <script src="digits.js"></script>
+</body>
+</html>
+

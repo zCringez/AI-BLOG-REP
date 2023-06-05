@@ -1,0 +1,8 @@
+{
+  "liveServer.settings.ignoreFiles" : [
+          ".vscode/**",
+          "model/**",
+  ],
+  "liveServer.settings.port": 5501
+
+}
